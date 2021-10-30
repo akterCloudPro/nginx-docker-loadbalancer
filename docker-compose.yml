@@ -1,0 +1,30 @@
+version: "3.0"
+
+services:
+  app1:
+    build: ./app1
+    image: aktercloudpro/flask:app1
+    ports:
+      - "5001:5000"
+
+  app2:
+    build: ./app2
+    image: aktercloudpro/flask:app2
+    ports:
+      - "5002:5000"
+
+  app3:
+    build: ./app3
+    image: aktercloudpro/flask:app3
+    ports:
+      - "5003:5000"
+  
+  nginx:
+    build: ./nginx
+    image: aktercloudpro/nginx:loadbalancer
+    ports:
+      - "8080:80"
+    depends_on:
+      - app1
+      - app2
+      - app3
