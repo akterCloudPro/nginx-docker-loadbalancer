@@ -34,7 +34,7 @@ Execute the command ``` docker ps ``` and see the result
 ![docker-ps](https://user-images.githubusercontent.com/73134659/152669387-3253edc5-ba6b-43f3-b318-af8fc9e636e3.JPG)
 
 ### Final Output:
-Put Host IP and 8080 port in the brower and hit enter. Our request will be redirected to the applications via nginx loadbalancer and we will see different response with every page refresh.
+Put Host IP and 8080 port in the browser and hit enter. Our request will be redirected to the applications via nginx loadbalancer and we will see different response with every page refresh.
 
 ![nginx-lb-output](https://user-images.githubusercontent.com/73134659/152669022-e8864b8d-7c49-48a4-9f89-bd3d470fcf28.JPG)
 
