@@ -6,10 +6,10 @@
 ### What we want to achive?
 We will run 3 python application container in three different port (5001, 50002, and 5003). We will also run a nginx container in port 8000 that will take care of the load balancing among 3 application containers.
 
-##### nginx loadbalancer configuration file (nginx.conf):
-
 ![nginx-lb-in-docker](https://user-images.githubusercontent.com/73134659/152667851-4992c524-7dfc-4fd0-bd35-ee537b9c438e.JPG)
 
+
+##### nginx loadbalancer configuration file (nginx.conf):
 ```
 upstream loadbalancer {
 server 172.17.0.1:5001;
