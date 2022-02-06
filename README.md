@@ -23,7 +23,7 @@ proxy_pass http://loadbalancer;
 ```
 
 ### How to proceed? 
-##### Clone the repo where you will find app and nginx folder with required configuration and Dokcrefile. Stay in the base and run ``` docker-compose up ``` command
+##### Clone the repo where you will find app and nginx folder with required configuration and Dokcrefile. Stay in the base folder "nginx-docker-loadbalancer" and run ``` docker-compose up ``` command
 ![image](https://user-images.githubusercontent.com/73134659/152667943-14d1da89-2bfc-48c1-91d9-af8c358d463a.png)
 
 ### Are the containers running?
