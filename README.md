@@ -26,7 +26,7 @@ proxy_pass http://loadbalancer;
 ![image](https://user-images.githubusercontent.com/73134659/152667943-14d1da89-2bfc-48c1-91d9-af8c358d463a.png)
 
 ### Are the containers running?
-Execute the command ``` docker ps ``` in cli and see the result
+Execute the command ``` docker ps ``` and see the result
 
 ![docker-ps](https://user-images.githubusercontent.com/73134659/152669387-3253edc5-ba6b-43f3-b318-af8fc9e636e3.JPG)
 
