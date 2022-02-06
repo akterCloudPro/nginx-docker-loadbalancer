@@ -1,5 +1,8 @@
 # nginx-docker-loadbalancer
 
+Load balancer is a service/technique that work with multiple application instances for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerance.
+nginx as a very efficient HTTP load balancer to distribute traffic to several application servers and to improve performance, scalability and reliability.
+
 ### What we want to achive (look at the diagram)
 ![nginx-lb-in-docker](https://user-images.githubusercontent.com/73134659/152667851-4992c524-7dfc-4fd0-bd35-ee537b9c438e.JPG)
 
