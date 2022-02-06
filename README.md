@@ -25,7 +25,7 @@ proxy_pass http://loadbalancer;
 ##### Clone the repo where you will find app and nginx folder with required configuration and Dokcrefile. Stay in the base and run ``` docker-compose up ``` command
 ![image](https://user-images.githubusercontent.com/73134659/152667943-14d1da89-2bfc-48c1-91d9-af8c358d463a.png)
 
-##### Are the containers running?
+### Are the containers running?
 Execute this command in cli ``` docker ps ``` and see the result
 
 ![docker-ps](https://user-images.githubusercontent.com/73134659/152669387-3253edc5-ba6b-43f3-b318-af8fc9e636e3.JPG)
