@@ -8,6 +8,8 @@ We will run 3 python application container in three different port (5001, 50002,
 
 ![nginx-lb-in-docker](https://user-images.githubusercontent.com/73134659/152667851-4992c524-7dfc-4fd0-bd35-ee537b9c438e.JPG)
 
+##### File structure:
+![tree](https://user-images.githubusercontent.com/73134659/152690295-2f886150-9e21-4b23-a801-676ca99a1652.JPG)
 
 ##### nginx loadbalancer configuration file (nginx.conf):
 ```
